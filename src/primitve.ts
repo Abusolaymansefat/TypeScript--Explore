@@ -6,7 +6,9 @@
 let userName:string = "AbuSoaymanSefat123";
 
 let userId:number = 1234;
-userName.toFixed()
+
+// 
+// userName.toFixed()
 userId.toFixed()
 
 let isAdmin : boolean = false;
