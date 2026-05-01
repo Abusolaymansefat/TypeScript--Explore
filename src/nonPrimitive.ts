@@ -14,4 +14,26 @@ coordinate.push(30);
 let players: [string, string, number] = ["Messi", "Andres Iniesta", 2]; // ok 
 
 let player: [string,  string, string, number] = ['Shakib Al Hassan', "sabbir", " soumya", 10]; // ok
-let player: [string,  string, number] = ['Shakib Al Hassan', "sabbir", " soumya", 10, 15]; // error type '[string string number]' hass 3 element(s) but type '[string, string, number]' has 4.
+//let playerss: [string,  string, number] = ['Shakib Al Hassan', "sabbir", " soumya", 10, 15]; // error type '[string string number]' hass 3 element(s) but type '[string, string, number]' has 4.
+
+
+// referende type object
+
+
+const user : {
+      organization: string,
+      firstName: string,
+      middleName: string,
+      lastName: string,
+      isMarried : boolean
+} = {
+      organization: " AB Construction",
+      firstName: "Abu",
+      middleName: "Solayman",
+      lastName: "Sefat",
+      isMarried: true
+}
+
+user.organization = "AB Construction Ltd";
+
+console.log(user);
